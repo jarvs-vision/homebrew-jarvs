@@ -5,7 +5,7 @@ Homebrew tap for [JarVS](https://jarvs-vision.pro) — the menu bar companion ap
 ## Install
 
 ```bash
-brew install julienfouilhe/jarvs/jarvs
+brew install jarvs-vision/jarvs/jarvs
 ```
 
 ## Uninstall
