@@ -1,13 +1,13 @@
 cask "jarvs" do
-  version "0.10"
+  version "0.11"
 
   on_arm do
     url "https://github.com/jarvs-vision/jarvs-releases/releases/download/v#{version}/JarVS-arm64.dmg"
-    sha256 "65ad1d0ff7d410fbbd4f478e259956482ca1efc0f7d8b537597abde4af1c9829"
+    sha256 "f6eba07514ab1c2c0d2132d4d8c673e7dc3905bab34a78bbe88bbcccb571c7a4"
   end
   on_intel do
     url "https://github.com/jarvs-vision/jarvs-releases/releases/download/v#{version}/JarVS-x86_64.dmg"
-    sha256 "67f04e624ca55d47fdf232b79fb09c2fb7099a2bb4ee16150354c77dee9d5b92"
+    sha256 "2f6bac6d24a6e98f7294653494bef0067799147df431396331695bdf9a9716f2"
   end
 
   name "JarVS"
