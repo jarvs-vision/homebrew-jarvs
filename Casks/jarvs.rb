@@ -1,18 +1,18 @@
 cask "jarvs" do
-  version "0.22"
+  version "0.23"
 
   on_arm do
     url "https://github.com/jarvs-vision/jarvs-releases/releases/download/v#{version}/JarVS-arm64.dmg"
-    sha256 "0bb3a6db23102aa192a3ec4129ad0a3af79275d5079ddef651a692be6363cb77"
+    sha256 "97a348be03a40faffe1017dcfd67905db297290f4ba084d44009107849a7a511"
   end
   on_intel do
     url "https://github.com/jarvs-vision/jarvs-releases/releases/download/v#{version}/JarVS-x86_64.dmg"
-    sha256 "ecc9b09392e4bcadf1eced4de1068595c46032f411abcfbd51f26e3862513b01"
+    sha256 "6afeceba6ca5362b8672d2bddf9f3b9088b1092fd25111c1cf8e4b5dd41c0459"
   end
 
   name "JarVS"
-  desc "Menu bar companion app for JarVS Vision Pro"
-  homepage "https://jarvs-vision.pro"
+  desc "Menu bar companion app for JarVS Apple Vision Pro app"
+  homepage "https://jarvs.space"
 
   auto_updates true
   depends_on macos: ">= :sonoma"
